@@ -1,0 +1,5 @@
+option(
+    'mcu', type: 'string',
+    description: 'Name of STM32 processor to target (options in STM32CubeL4/Drivers/CMSIS/Device/ST/STM32XYxx/Include/stm32XYxx.h)',
+    value: 'STM32L476xx'
+)
